@@ -7,7 +7,7 @@ import org.junit.Test;
 public class MediumQuestionTest {
 	
 	Customer previlaged=new PrivilegeCustomer("venkat", "coimbatore",21, "9600511879");
-	Customer senior=new SeniorCitizenCustomer("venkat", "coimbatore",21, "9600511879");
+	Customer senior=new SeniorCitizen("venkat", "coimbatore",21, "9600511879");
 	@SuppressWarnings("static-access")
 	@Test
 	public void privilegeCustomer() {
